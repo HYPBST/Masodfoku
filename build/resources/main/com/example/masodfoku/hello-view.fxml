@@ -19,14 +19,14 @@
     <RowConstraints maxHeight="266.0" minHeight="10.0" prefHeight="266.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <TextField fx:id="tfa" prefHeight="50.0" prefWidth="50.0" />
+      <TextField prefHeight="50.0" fx:id="tfa" prefWidth="50.0" />
       <Label prefHeight="17.0" prefWidth="105.0" text="x^2+" GridPane.columnIndex="1">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <TextField fx:id="tfb" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" />
-      <TextField fx:id="tfc"  prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" />
+      <TextField prefHeight="50.0" fx:id="tfb" prefWidth="50.0" GridPane.columnIndex="2" />
+      <TextField prefHeight="50.0" fx:id="tfc" prefWidth="50.0" GridPane.columnIndex="4" />
       <Label text="x+" GridPane.columnIndex="3">
          <font>
             <Font size="20.0" />
@@ -37,7 +37,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Button fx:id="btnszamol" mnemonicParsing="false" onAction="#szamol" prefHeight="25.0" prefWidth="82.0" text="Button" GridPane.columnSpan="2" GridPane.rowIndex="1" />
-      <Label fx:id="lbleredmeny" prefHeight="63.0" prefWidth="103.0" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+      <Button mnemonicParsing="false" fx:id="btnszamol" prefHeight="25.0" prefWidth="82.0" text="Button" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+      <Label prefHeight="63.0" prefWidth="103.0" fx:id="lbleredmeny" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.valignment="TOP" />
    </children>
 </GridPane>
